@@ -4,7 +4,7 @@
     
 }
 
-video {
+/* video {
     width: 35%;
     margin: auto;
     
@@ -16,10 +16,31 @@ iframe{
     margin-top: 5px;
     margin-bottom: 5px;
     float: left;
+} */
+
+video {
+    width: 30%;
+    margin: 5px;
+}
+
+iframe{
+    width:90%;
+    margin: 5px;
+    border: 5px solid rgba(0, 0, 0, .3);
+}
+
+.jumbotron{
+    background: url(images/rbt.jpg);
+    /* background: #9400D3; */
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .5);
+    background-blend-mode: multiply;
+    color: white;
+    background-repeat: no-repeat;
 }
 
 h1{
-    text-align: center;
+    text-align: left;
     margin-top: .15%;
     margin-bottom: 1px;
     font-size: 60px;
@@ -32,19 +53,54 @@ h2{
 body{
     width: 100%;
     height: 100%;
-    background: #9400D3;
+    background: url(img/pic3.jpg);
+    /* background: white; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 70px;
 }
 
-.container {
+div#portfolio-nav.collapse.navbar-collapse{
+    /* background-color: rgb(11, 58, 97); */
+
+    color: white;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: rgb(11, 58, 97);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-brand {
+    color:white;
+}
+p{
+    text-align: left;
+}
+
+div.col-md-6{
+    text-align: center;
+}
+
+div.col-sm-12{
+   text-align: center; 
+}
+
+
+.pics {
     float: right;
     width: 100%;
     height: 500px;
     margin-left: 20%;
     margin-right: 20%;
-    margin: 5px auto;
+    margin: 15px auto;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    /* border: 5px solid rgba(0, 0, 0, .3); */
     /* transition: 20s; */
 
     
